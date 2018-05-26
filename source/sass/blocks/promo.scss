@@ -1,0 +1,18 @@
+.promo {
+  min-height: 925px;
+
+  background-color: #000000;
+  background-image: url("../img/header-background.jpg");
+
+  color: #ffffff;
+}
+
+.promo__container {
+  position: relative;
+}
+
+.promo__wrap {
+  position: absolute;
+  top: 360px;
+  left: 0;
+}

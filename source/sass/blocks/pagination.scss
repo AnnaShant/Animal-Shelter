@@ -1,0 +1,5 @@
+.pagination__list {
+  @include reset-list();
+
+  display: flex;
+}
