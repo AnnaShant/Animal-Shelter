@@ -1,3 +1,33 @@
-.pets {
-  background-color: #f6f6f6;
+.btn {
+  @include reset-btn();
+  padding: 12px 46px;
+
+  font-size: 17px;
+  color: #292929;
+
+  background-color: $color-btn;
+
+  outline: none;
+  border-radius: 25px;
+
+  &:hover,
+  &:focus {
+    background-color: #fddcc4;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+
+  &--pets {
+    background-color: #ffffff;
+    border: solid 2px $color-btn;
+
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      background-color: $color-btn;
+    }
+  }
 }

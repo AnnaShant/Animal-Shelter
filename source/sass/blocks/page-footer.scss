@@ -8,3 +8,33 @@
 .page-footer__container {
   display: flex;
 }
+
+.page-footer__block {
+  width: 370px;
+}
+
+.page-footer__title {
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.page-footer__text {
+  padding: 12px 50px;
+
+  color: $color-btn;
+}
+
+.page-footer__contacts-email {
+  background-image: url("../img/envelope.png");
+  background-repeat: no-repeat;
+}
+
+.page-footer__contacts-number {
+  background-image: url("../img/telephone.png");
+  background-repeat: no-repeat;
+}
+
+.page-footer__location-adress {
+  background-image: url("../img/pin.png");
+  background-repeat: no-repeat;
+}
