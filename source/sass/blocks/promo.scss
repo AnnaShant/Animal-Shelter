@@ -12,20 +12,27 @@
 
 .promo__wrap {
   position: absolute;
-  top: 360px;
+  top: 320px;
   left: 0;
 
-  width: 500px;
+  width: 460px;
 }
 
 .promo__title {
-  font-size: 44px;
+  font-size: 48px;
   font-weight: 400;
   color: #ffffff;
+  letter-spacing: 1px;
 }
 
 .promo__text {
+  margin-bottom: 52px;
   font-family: $font-arial;
   font-size: 15px;
   color: $color-text-menu;
+  line-height: 1.6;
+}
+
+.promo__btn {
+  padding: 16px 44px;
 }

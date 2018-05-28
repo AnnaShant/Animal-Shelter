@@ -1,5 +1,5 @@
 .pets {
-  padding-bottom: 40px;
+  padding-bottom: 83px;
 
   background-color: #f6f6f6;
 }
@@ -11,7 +11,18 @@
 
   position: relative;
 
-  padding-bottom: 40px;
+  padding-bottom: 115px;
+}
+
+.pets__title {
+  padding-top: 158px;
+  padding-bottom: 65px;
+  padding-left: 365px;
+  padding-right: 370px;
+
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.2;
 }
 
 .pets__btn {
@@ -19,7 +30,7 @@
 
   width: 48px;
   height: 48px;
-  margin-top: 120px;
+  margin-top: 184px;
 
   outline: none;
 
@@ -45,6 +56,25 @@
   }
 }
 
+.pets__wrap-box {
+  display: flex;
+  justify-content: space-between;
+
+  width: 910px;
+}
+
+.pets__box {
+  width: 270px;
+
+  text-align: center;
+}
+
+.pets__name {
+  letter-spacing: 1px;
+}
+
 .pets__btn-link {
-  margin-left: 420px;
+  margin-left: 450px;
+
+  padding: 16px 48px;
 }

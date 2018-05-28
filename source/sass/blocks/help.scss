@@ -1,9 +1,33 @@
+.help {
+  padding-top: 65px;
+}
+
+.help__title {
+  padding-bottom: 70px;
+  padding-left: 423px;
+  padding-right: 425px;
+
+  text-align: center;
+  line-height: 1.2;
+}
+
 .help__wrap {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .help__block {
   width: 200px;
+
+  text-align: center;
+}
+
+.help__block-title {
+  font-weight: 400;
+  line-height: 0;
+  letter-spacing: 1px;
 }
