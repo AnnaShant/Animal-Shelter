@@ -15,7 +15,7 @@
 }
 
 .pets__title {
-  padding-top: 158px;
+  padding-top: 73px;
   padding-bottom: 65px;
   padding-left: 365px;
   padding-right: 370px;
@@ -64,9 +64,15 @@
 }
 
 .pets__box {
+  position: relative;
+
   width: 270px;
 
   text-align: center;
+
+  &--pets {
+    margin-bottom: 70px;
+  }
 }
 
 .pets__name {
