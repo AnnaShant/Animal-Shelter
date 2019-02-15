@@ -1,4 +1,4 @@
-'use strict'
+"use strict"
 
 var link = document.querySelector(".btn-modal");
 var popup = document.querySelector(".modal");
@@ -14,7 +14,7 @@ close.addEventListener("click", function(event) {
   popup.classList.remove("modal-show");
 });
 
-  window.addEventListener("keydown", function(event) {
+window.addEventListener("keydown", function(event) {
   if (event.keyCode === 27) {
     if (popup.classList.contains("modal-show")) {
       popup.classList.remove("modal-show");
